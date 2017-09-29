@@ -81,6 +81,15 @@
                   title: 'Truck: 988274921', // Title
                   text:  '<b>988274921</b> on its way to Malmo, <a href="pages/examples/driver2.html">Nacho Libre</a> is driving it' // HTML content
                 });
+
+                $("#map").addMarker({
+                  coords: [35.247416, 100.787576], // GPS coords
+               //   url: 'http://www.tradeshift.com', // Link to redirect onclick (optional)
+                  id: 'marker4', // Unique ID for your marker
+                  icon: "https://maps.gstatic.com/mapfiles/ms2/micons/plane.png",
+                  title: 'Drone: Super Duper', // Title
+                  text:  '<b>Super Duper Drone</b> on its way to Beijing' // HTML content
+                });
                 
         console.log(snapshot.val());
 
